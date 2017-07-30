@@ -1,0 +1,24 @@
+#main{
+	-webkit-column-width:202px;/* 谷歌的 */
+	-moz-column-width:202px;/* 火狐的 */
+	-o-column-width:202px;/* opera的 */
+	-ms-column-width:202px;/* IE的 */
+	-webkit-column-gap:2px;/* 谷歌的间距 */
+	-moz-column-gap:5px;/* 火狐的 */
+	-o-column-gap:5px;/* opera的 */
+	-ms-column-gap:5px;/* IE的 */
+}
+
+.box{padding:10px 0 0 15px;}
+.pic{
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #ccc;
+	width:165px;
+}
+.pic img{
+	display: block;
+	width: 165px;
+	height: auto;
+}
